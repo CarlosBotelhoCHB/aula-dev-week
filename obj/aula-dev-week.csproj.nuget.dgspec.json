@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week\\aula-dev-week.csproj": {}
+    "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week-potencial-dotnet\\aula-dev-week.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week\\aula-dev-week.csproj": {
+    "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week-potencial-dotnet\\aula-dev-week.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week\\aula-dev-week.csproj",
+        "projectUniqueName": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week-potencial-dotnet\\aula-dev-week.csproj",
         "projectName": "aula-dev-week",
-        "projectPath": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week\\aula-dev-week.csproj",
+        "projectPath": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week-potencial-dotnet\\aula-dev-week.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week\\obj\\",
+        "outputPath": "D:\\OneDrive\\PROGRAMAÇÃO\\DIO.me\\Semana Dev-Week .NET\\aula-dev-week-potencial-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

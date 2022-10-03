@@ -17,4 +17,6 @@ public class Contrato
     public DateTime DataCriacao { get; set;  }
     public string TokenId { get; set; }
     public double Valor { get; set; }
+    public int Id { get; set; } // Chave primaria
+    public int PessoaId { get; set; } // Chave extrangeira
 }
